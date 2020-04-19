@@ -1,5 +1,5 @@
 pipeline {
-    agents any
+    agent any
     mavenHome = tool 'myMaven'
     dockerHome = tool 'myDocker'
     PATH = "$dockerHome/bin:$mavenHone/bin:$PATH"
